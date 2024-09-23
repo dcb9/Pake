@@ -2,7 +2,7 @@
   "tauri": {
     "bundle": {
       "icon": ["png/weread_512.png"],
-      "identifier": "com.pake.weread",
+      "identifier": "com.pake.cambridge.dictionary",
       "active": true,
       "category": "DeveloperTool",
       "copyright": "",

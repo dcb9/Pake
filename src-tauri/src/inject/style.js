@@ -1,6 +1,11 @@
 window.addEventListener('DOMContentLoaded', _event => {
   // Customize and transform existing functions
   const contentCSS = `
+    #page-content {
+      width: 100%;
+      margin-top: 0;
+    }
+
     #page #footer-wrapper,
     .drawing-board .toolbar .toolbar-action,
     .c-swiper-container,
