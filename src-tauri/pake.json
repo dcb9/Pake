@@ -1,7 +1,7 @@
 {
   "windows": [
     {
-      "url": "https://dictionary.cambridge.org/dictionary/english/",
+      "url": "https://www.zhiyuezhe.com/",
       "url_type": "web",
       "hide_title_bar": true,
       "fullscreen": false,
@@ -21,8 +21,8 @@
   },
   "system_tray": {
     "macos": false,
-    "linux": true,
-    "windows": true
+    "linux": false,
+    "windows": false
   },
   "inject": []
 }

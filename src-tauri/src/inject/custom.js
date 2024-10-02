@@ -6,17 +6,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('ad_leftslot').remove();
-  document.getElementById('ad_topslot').remove();
-  document.getElementById('rightcol-above-sticky').remove();
-  document.getElementById('rightcol-sticky').remove();
-  document.getElementById('rightcol-sticky2').remove();
-  let list = document.getElementsByClassName("topslot-container");
-  for (const i of list) {
-    i.remove();
-  }
-  list = document.getElementsByClassName("pr x lbb lb-cm");
-  for (const i of list) {
-    i.remove();
-  }
+  document.querySelectorAll('a').forEach((el) => {
+    el.target = "_self"
+  });
 });
