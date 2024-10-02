@@ -1,15 +1,15 @@
 {
   "tauri": {
     "bundle": {
-      "icon": ["png/weread_256.ico", "png/weread_32.ico"],
+      "icon": ["png/ce_16.ico", "png/ce_16.ico"],
       "identifier": "com.pake.cambridge.dictionary",
       "active": true,
-      "category": "DeveloperTool",
+      "category": "Education",
       "copyright": "",
       "externalBin": [],
       "longDescription": "",
-      "resources": ["png/weread_32.ico"],
-      "shortDescription": "",
+      "resources": ["png/ce_16.ico"],
+      "shortDescription": "Cambridge Dictionary",
       "targets": ["msi"],
       "windows": {
         "certificateThumbprint": null,
